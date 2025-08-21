@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-image: url(user.jpeg);
+    background-size: cover;
+    position: absolute;
+    right:0px;
+}
+p{
+    height: 900px;
+}
