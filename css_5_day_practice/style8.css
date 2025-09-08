@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(10, 66, 122);    
+    border-top:20px solid lightseagreen;
+    animation: rotate 6s 0s infinite normal;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+@keyframes rotate{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+    
+}

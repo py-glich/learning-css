@@ -1,0 +1,28 @@
+.navbar {
+    background-color: pink;
+    display: flex ;
+    justify-content: space-evenly;
+
+}
+a{
+    background-color: aquamarine;
+}
+li {
+
+    list-style-type: none;  /* this will remove the bullet points from the list */
+   /*  display: inline;    this will place all the element in one line*/
+
+}
+.outer{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(2, 207, 98);
+    display: flex;
+   justify-content: center;  /*this bring it in center of x asi*/
+    align-items: center; /* this bring content in center of y axis*/
+}
+.inner{
+    height: 100px;
+    width:100px;
+    background-color: cornflowerblue;
+}

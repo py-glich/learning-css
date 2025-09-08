@@ -1,0 +1,49 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    transition: all 2s ease-in;
+    position:absolute;
+    top: 100px;
+    bottom: 100px;
+
+    /*
+
+    transform: rotate(45deg);
+    rotate: x 90deg;   /* in 90 deg x axis the cude lay with x axise that why its not seeing 
+    rotate: y 90deg;   /* same 
+    rotate: z 90deg;   /* but it will now show the cude*/
+    /*transform: scale(1);   1 means will remain same default*/
+    /*  transform: scale(4,2); x,y*/
+    /*transform: scaleX(5);*/
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    /*animation: colorfame 3s ease-in 1s 5 ;  learn more about direction animation direction mdn and iteration count how many step*/
+    animation-name: dirt;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: alternation;
+
+}
+/*@keyframes colorfame{
+    from {background-color: lightblue;}
+    to {background-color: rgb(255, 2, 78);}
+}*/
+@keyframes dirt{
+    0% {left: 0px; background-color: lightblue;}
+    50%{background-color: blueviolet;}
+    100% { left: 200px;  background-color: rgb(255, 0, 157);}
+    
+}
+
+/*
+div:hover{
+    background-color: rgb(14, 54, 129);
+    /*transform: scaleY(9);
+    /*transform: translateX(60px);   it will move to xaxise
+    /*transform: translateY(-80px,-40px);
+    /*transform: translate(100px,-40px);
+    transform: skew(90deg);
+    transform: skewX(90deg);
+}*/
+

@@ -1,0 +1,28 @@
+#navbar{
+    padding: 0;
+    margin: 0;
+    color: blanchedalmond;
+        height: 60px;
+    background-color: black;
+}
+a{
+    margin-right: 150px;
+}
+button{
+    background-color: antiquewhite;
+    color: black;
+}
+.c{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#contant{
+    height: 720px;
+}
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
